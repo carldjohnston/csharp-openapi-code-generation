@@ -56,7 +56,7 @@
               }
             }
           },
-          "4xx" : {
+          "default" : {
             "description" : "The following error codes MUST be supported:<br/><ul class=\"error-code-list\"><li>[400 - Invalid Field](#error-400-field-invalid)</li><li>[400 - Invalid Version](#error-400-header-invalid-version)</li><li>[406 - Unsupported Version](#error-406-header-unsupported-version)</li></ul>",
             "schema" : {
               "$ref" : "#/definitions/ResponseErrorListV2"
@@ -108,7 +108,7 @@
               "$ref" : "#/definitions/ResponseMetricsListV3"
             }
           },
-          "4xx" : {
+          "default" : {
             "description" : "The following error codes MUST be supported:<br/><ul class=\"error-code-list\"><li>[400 - Invalid Field](#error-400-field-invalid)</li><li>[400 - Invalid Version](#error-400-header-invalid-version)</li><li>[406 - Unsupported Version](#error-406-header-unsupported-version)</li></ul>",
             "schema" : {
               "$ref" : "#/definitions/ResponseErrorListV2"
