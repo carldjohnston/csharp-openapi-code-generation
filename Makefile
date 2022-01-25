@@ -66,7 +66,7 @@ autorest-admin:
 	mkdir -p autorest/admin/.autorest
 	docker run --rm \
 		-v $$(pwd):/workspace \
-		-t autorest-dotnetcore autorest/admin.yaml --debug
+		-t autorest-dotnetcore autorest/admin.yaml | tee autorest/admin/.autorest/LOG
 
 .PHONY: openapi-generator
 openapi-generator: openapi-generator-energy

@@ -280,7 +280,7 @@
           "$ref" : "#/definitions/AverageResponseMetricsV2_largePayload"
         },
         "secondary" : {
-          "$ref" : "#/definitions/AverageResponseMetricsV2_secondary"
+          "$ref" : "#/definitions/AverageResponseMetricsV2_secondary_ref"
         },
         "largeSecondary" : {
           "$ref" : "#/definitions/AverageResponseMetricsV2_largeSecondary"
@@ -709,7 +709,7 @@
       "description" : "Average response time as measured for the secondary data holder",
       "x-conditional" : [ "currentDay", "previousDays" ]
     },
-    "AverageResponseMetricsV2_secondary" : {
+    "AverageResponseMetricsV2_secondary_ref" : {
       "type" : "object",
       "required" : [ "primary", "secondary" ],
       "properties" : {

@@ -1,0 +1,5 @@
+---
+input-file: /workspace/cds_admin.json
+namespace: Agl.Cdr.Common
+azure-functions-csharp: true
+output-folder: /workspace/autorest/admin
