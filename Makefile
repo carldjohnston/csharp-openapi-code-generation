@@ -71,6 +71,15 @@ autorest-admin:
 .PHONY: openapi-generator
 openapi-generator: openapi-generator-energy
 
+.PHONY: openapi-generator-admin
+openapi-generator-admin:
+	mkdir -p openapi-generator/admin/.openapi-generator
+	docker run --rm -v "$$(pwd):/workspace" openapitools/openapi-generator-cli generate \
+		--input-spec /workspace/cds_admin.json \
+		--generator-name csharp-netcore-functions \
+		--model-package Agl.Cdr.Admin \
+		--output /workspace/openapi-generator/admin | tee openapi-generator/admin/.openapi-generator/LOG
+
 .PHONY: openapi-generator-energy
 openapi-generator-energy:
 	mkdir -p openapi-generator/energy/.openapi-generator
