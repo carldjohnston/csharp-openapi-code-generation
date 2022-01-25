@@ -1,15 +1,9 @@
 SHELL = /bin/bash -e
 
-.PHONY: all
-all: build autorest
-
 .PHONY: build
 build:
 	docker build -t swagger-cli -f Dockerfile.swagger-cli .
 	docker build -t autorest-dotnetcore -f Dockerfile.autorest .
-
-.PHONY: validate
-validate: swagger-cli-validate-energy swagger-cli-validate-common swagger-cli-validate-admin openapi-generator-validate-energy openapi-generator-validate-common openapi-generator-validate-admin
 
 .PHONY: swagger-cli-validate-energy
 swagger-cli-validate-energy:
@@ -44,9 +38,6 @@ openapi-generator-validate-admin:
 	docker run --rm -v "$$(pwd):/workspace" openapitools/openapi-generator-cli validate \
 		--input-spec /workspace/cds_admin.json
 
-.PHONY: autorest
-autorest: autorest-energy autorest-common autorest-admin
-
 .PHONY: autorest-energy
 autorest-energy:
 	mkdir -p autorest/energy/.autorest
@@ -68,23 +59,23 @@ autorest-admin:
 		-v $$(pwd):/workspace \
 		-t autorest-dotnetcore autorest/admin.yaml | tee autorest/admin/.autorest/LOG
 
-.PHONY: openapi-generator
-openapi-generator: openapi-generator-energy
-
 .PHONY: openapi-generator-admin
 openapi-generator-admin:
-	mkdir -p openapi-generator/admin/.openapi-generator
+	mkdir -p openapi-generator/aspnetcore/admin/.openapi-generator
 	docker run --rm -v "$$(pwd):/workspace" openapitools/openapi-generator-cli generate \
-		--input-spec /workspace/cds_admin.json \
-		--generator-name csharp-netcore-functions \
-		--model-package Agl.Cdr.Admin \
-		--output /workspace/openapi-generator/admin | tee openapi-generator/admin/.openapi-generator/LOG
+		--config /workspace/openapi-generator/aspnetcore/admin.yaml --output /workspace/openapi-generator/aspnetcore/admin | tee openapi-generator/aspnetcore/admin/.openapi-generator/LOG
 
-.PHONY: openapi-generator-energy
-openapi-generator-energy:
-	mkdir -p openapi-generator/energy/.openapi-generator
+.PHONY: openapi-generator-admin-functions
+openapi-generator-admin-functions:
+	mkdir -p openapi-generator/functions/admin/.openapi-generator
 	docker run --rm -v "$$(pwd):/workspace" openapitools/openapi-generator-cli generate \
-		--input-spec /workspace/cds_energy.json \
-		--generator-name csharp-netcore-functions \
-		--model-package Agl.Cdr.Energy \
-		--output /workspace/openapi-generator/energy | tee openapi-generator/energy/.openapi-generator/LOG
+		--config /workspace/openapi-generator/functions/admin.yaml --output /workspace/openapi-generator/functions/admin | tee openapi-generator/functions/admin/.openapi-generator/LOG
+
+# .PHONY: openapi-generator-energy
+# openapi-generator-energy:
+# 	mkdir -p openapi-generator/energy/.openapi-generator
+# 	docker run --rm -v "$$(pwd):/workspace" openapitools/openapi-generator-cli generate \
+# 		--input-spec /workspace/cds_energy.json \
+# 		--generator-name csharp-netcore-functions \
+# 		--model-package Agl.Cdr.Energy \
+# 		--output /workspace/openapi-generator/energy | tee openapi-generator/energy/.openapi-generator/LOG

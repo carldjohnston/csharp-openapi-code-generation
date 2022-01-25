@@ -1,0 +1,7 @@
+---
+inputSpec: /workspace/cds_admin.json
+generatorName: aspnetcore
+aspnetCoreVersion: 3.1
+buildTarget: program
+packageName: Agl.Cdr.Admin
+packageTitle: Admin API
