@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> The RequestMetaDataUpdate. </summary>
     public partial class RequestMetaDataUpdate

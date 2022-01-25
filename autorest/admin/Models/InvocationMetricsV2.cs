@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> Number of API calls in each performance tier over time. </summary>
     public partial class InvocationMetricsV2

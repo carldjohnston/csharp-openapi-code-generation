@@ -8,7 +8,7 @@
 using System;
 using System.ComponentModel;
 
-namespace Agl.Cdr.Common
+namespace Agl.Cdr.Admin
 {
     /// <summary> The Enum0. </summary>
     public readonly partial struct Enum0 : IEquatable<Enum0>

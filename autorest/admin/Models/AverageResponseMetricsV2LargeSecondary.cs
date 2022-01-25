@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> Average response time for the large payload tier.  Mandatory for data holders designated for a Shared Responsibility Data Request data cluster. </summary>
     public partial class AverageResponseMetricsV2LargeSecondary

@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> Average response time in seconds, at millisecond resolution, within each performance tier. </summary>
     public partial class AverageResponseMetricsV2

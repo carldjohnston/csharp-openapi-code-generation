@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> Number of calls rejected due to traffic thresholds over time. </summary>
     public partial class RejectionMetricsV2

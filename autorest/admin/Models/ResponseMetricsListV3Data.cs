@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> The ResponseMetricsListV3Data. </summary>
     public partial class ResponseMetricsListV3Data

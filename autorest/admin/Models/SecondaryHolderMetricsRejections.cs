@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> Number of calls resulting in a rejection due to server execution over time. </summary>
     public partial class SecondaryHolderMetricsRejections

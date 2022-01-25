@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> API call counts for the low priority tier. </summary>
     public partial class InvocationMetricsV2LowPriority

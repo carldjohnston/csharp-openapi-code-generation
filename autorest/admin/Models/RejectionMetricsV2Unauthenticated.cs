@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> Rejection counts for all uauthenticated end points. </summary>
     public partial class RejectionMetricsV2Unauthenticated

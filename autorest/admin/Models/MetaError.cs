@@ -5,7 +5,7 @@
 
 #nullable disable
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> Additional data for customised error codes. </summary>
     internal partial class MetaError

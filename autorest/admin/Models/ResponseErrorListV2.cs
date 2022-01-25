@@ -8,7 +8,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> The ResponseErrorListV2. </summary>
     internal partial class ResponseErrorListV2

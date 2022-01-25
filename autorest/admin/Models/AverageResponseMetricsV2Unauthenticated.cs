@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> Average response time for the unauthenticated tier. </summary>
     public partial class AverageResponseMetricsV2Unauthenticated

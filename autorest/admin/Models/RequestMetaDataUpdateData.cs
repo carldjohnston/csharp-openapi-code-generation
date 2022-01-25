@@ -5,7 +5,7 @@
 
 #nullable disable
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> The RequestMetaDataUpdateData. </summary>
     public partial class RequestMetaDataUpdateData

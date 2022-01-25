@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> Average response time as measured for the primary data holder. </summary>
     public partial class AverageResponseMetricsV2SecondaryPrimary

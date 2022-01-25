@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> Percentage availability of the CDR platform over time. </summary>
     public partial class AvailabilityMetrics

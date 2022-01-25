@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Agl.Cdr.Common.Models
+namespace Agl.Cdr.Admin.Models
 {
     /// <summary> Session counts over time. Note that a session is defined as the provisioning of an Access Token. </summary>
     public partial class SessionCountMetrics
