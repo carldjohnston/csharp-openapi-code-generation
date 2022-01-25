@@ -2,4 +2,6 @@ FROM node:lts-slim
 
 RUN npm install -g @apidevtools/swagger-cli
 
+WORKDIR /workspace
+
 ENTRYPOINT [ "swagger-cli" ]
