@@ -422,7 +422,7 @@
             "type" : "array",
             "description" : "Array is mandatory but may be empty if no valid addresses are held. One and only one address may have the purpose of REGISTERED. Zero or one, and no more than one, record may have the purpose of MAIL. If zero then the REGISTERED address is to be used for mail",
             "items" : {
-              "$ref" : "#/definitions/CommonPhysicalAddressWithPurpose"
+              "$ref" : "#/definitions/CommonPhysicalAddressWithPurpose1"
             }
           }
         }
@@ -514,7 +514,7 @@
             "type" : "array",
             "description" : "Array is mandatory but may be empty if no valid addresses are held. One and only one address may have the purpose of REGISTERED. Zero or one, and no more than one, record may have the purpose of MAIL. If zero then the REGISTERED address is to be used for mail",
             "items" : {
-              "$ref" : "#/definitions/CommonPhysicalAddressWithPurpose"
+              "$ref" : "#/definitions/CommonPhysicalAddressWithPurpose2"
             }
           }
         }
@@ -579,7 +579,22 @@
         }
       }
     },
-    "CommonPhysicalAddressWithPurpose" : {
+    "CommonPhysicalAddressWithPurpose1" : {
+      "allOf" : [ {
+        "$ref" : "#/definitions/CommonPhysicalAddress"
+      }, {
+        "type" : "object",
+        "required" : [ "purpose" ],
+        "properties" : {
+          "purpose" : {
+            "type" : "string",
+            "description" : "Enumeration of values indicating the purpose of the physical address",
+            "enum" : [ "MAIL", "OTHER", "PHYSICAL", "REGISTERED", "WORK" ]
+          }
+        }
+      } ]
+    },
+    "CommonPhysicalAddressWithPurpose2" : {
       "allOf" : [ {
         "$ref" : "#/definitions/CommonPhysicalAddress"
       }, {
