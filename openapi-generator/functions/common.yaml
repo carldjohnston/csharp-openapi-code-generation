@@ -1,0 +1,7 @@
+---
+inputSpec: /workspace/cds_common.json
+generatorName: csharp-netcore-functions
+targetFramework: netcoreapp3.1
+buildTarget: program
+packageName: Agl.Cdr.Common
+packageTitle: Common API

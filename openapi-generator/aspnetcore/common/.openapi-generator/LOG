@@ -1,0 +1,74 @@
+[main] INFO  o.o.codegen.DefaultGenerator - Generating with dryRun=false
+[main] INFO  o.o.c.ignore.CodegenIgnoreProcessor - No .openapi-generator-ignore file found.
+[main] INFO  o.o.codegen.DefaultGenerator - OpenAPI Generator: aspnetcore (server)
+[main] INFO  o.o.codegen.DefaultGenerator - Generator 'aspnetcore' is considered stable.
+[main] INFO  o.o.c.l.AbstractCSharpCodegen - Environment variable CSHARP_POST_PROCESS_FILE not defined so the C# code may not be properly formatted by uncrustify (0.66 or later) or other code formatter. To define it, try `export CSHARP_POST_PROCESS_FILE="/usr/local/bin/uncrustify --no-backup" && export UNCRUSTIFY_CONFIG=/path/to/uncrustify-rules.cfg` (Linux/Mac). Note: replace /path/to with the location of uncrustify-rules.cfg
+[main] INFO  o.o.c.l.AbstractCSharpCodegen - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[main] INFO  o.o.c.l.AspNetCoreServerCodegen - ASP.NET core version: 3.1
+[main] WARN  o.o.c.l.AspNetCoreServerCodegen - ASP.NET core version is 3.1 so changing default Swashbuckle version to 5.0.0.
+[main] WARN  o.o.c.l.AspNetCoreServerCodegen - ASP.NET core version is 3.1 so changing to use frameworkReference instead of packageReference 
+[main] WARN  o.o.c.l.AspNetCoreServerCodegen - ASP.NET core version is 3.1 so switching to old style endpoint routing.
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: CommonPerson
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: CommonOrganisation
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: CommonPhysicalAddress
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: CommonPhysicalAddress
+[main] INFO  o.o.codegen.DefaultGenerator - Model Meta not generated since it's a free-form object
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonEmailAddress.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonOrganisation.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonOrganisationDetailV2.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonOrganisationDetailV2AllOf.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonPAFAddress.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonPerson.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonPersonDetailV2.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonPersonDetailV2AllOf.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonPhoneNumber.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonPhysicalAddress.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonPhysicalAddressWithPurpose1.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonPhysicalAddressWithPurpose1AllOf.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonPhysicalAddressWithPurpose2.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/CommonSimpleAddress.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/DiscoveryOutage.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/Links.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/MetaError.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/ResponseCommonCustomer.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/ResponseCommonCustomerData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/ResponseCommonCustomerDetailV2.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/ResponseCommonCustomerDetailV2Data.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/ResponseCommonDiscoveryStatus.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/ResponseCommonDiscoveryStatusData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/ResponseDiscoveryOutagesList.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/ResponseDiscoveryOutagesListData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/ResponseErrorListV2.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Models/ResponseErrorListV2Errors.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Controllers/CommonApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Controllers/CustomerApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Controllers/DiscoveryApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/build.sh
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/build.bat
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/README.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/Agl.Cdr.Common.sln
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/.gitignore
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Attributes/ValidateModelStateAttribute.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Converters/CustomEnumConverter.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/OpenApi/TypeExtensions.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Agl.Cdr.Common.csproj
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Dockerfile
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/appsettings.json
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Startup.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Program.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Properties/launchSettings.json
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/wwwroot/README.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/wwwroot/index.html
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/wwwroot/openapi-original.json
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Filters/BasePathFilter.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Filters/GeneratePathParamsValidationFilter.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Authentication/ApiAuthentication.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/src/Agl.Cdr.Common/Formatters/InputFormatterStream.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/.openapi-generator-ignore
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/.openapi-generator/VERSION
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/common/.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################

@@ -71,11 +71,26 @@ openapi-generator-admin-functions:
 	docker run --rm -v "$$(pwd):/workspace" openapitools/openapi-generator-cli generate \
 		--config /workspace/openapi-generator/functions/admin.yaml --output /workspace/openapi-generator/functions/admin | tee openapi-generator/functions/admin/.openapi-generator/LOG
 
-# .PHONY: openapi-generator-energy
-# openapi-generator-energy:
-# 	mkdir -p openapi-generator/energy/.openapi-generator
-# 	docker run --rm -v "$$(pwd):/workspace" openapitools/openapi-generator-cli generate \
-# 		--input-spec /workspace/cds_energy.json \
-# 		--generator-name csharp-netcore-functions \
-# 		--model-package Agl.Cdr.Energy \
-# 		--output /workspace/openapi-generator/energy | tee openapi-generator/energy/.openapi-generator/LOG
+.PHONY: openapi-generator-common
+openapi-generator-common:
+	mkdir -p openapi-generator/aspnetcore/common/.openapi-generator
+	docker run --rm -v "$$(pwd):/workspace" openapitools/openapi-generator-cli generate \
+		--config /workspace/openapi-generator/aspnetcore/common.yaml --output /workspace/openapi-generator/aspnetcore/common | tee openapi-generator/aspnetcore/common/.openapi-generator/LOG
+
+.PHONY: openapi-generator-common-functions
+openapi-generator-common-functions:
+	mkdir -p openapi-generator/functions/common/.openapi-generator
+	docker run --rm -v "$$(pwd):/workspace" openapitools/openapi-generator-cli generate \
+		--config /workspace/openapi-generator/functions/common.yaml --output /workspace/openapi-generator/functions/common | tee openapi-generator/functions/common/.openapi-generator/LOG
+
+.PHONY: openapi-generator-energy
+openapi-generator-energy:
+	mkdir -p openapi-generator/aspnetcore/energy/.openapi-generator
+	docker run --rm -v "$$(pwd):/workspace" openapitools/openapi-generator-cli generate \
+		--config /workspace/openapi-generator/aspnetcore/energy.yaml --output /workspace/openapi-generator/aspnetcore/energy | tee openapi-generator/aspnetcore/energy/.openapi-generator/LOG
+
+.PHONY: openapi-generator-energy-functions
+openapi-generator-energy-functions:
+	mkdir -p openapi-generator/functions/energy/.openapi-generator
+	docker run --rm -v "$$(pwd):/workspace" openapitools/openapi-generator-cli generate \
+		--config /workspace/openapi-generator/functions/energy.yaml --output /workspace/openapi-generator/functions/energy | tee openapi-generator/functions/energy/.openapi-generator/LOG

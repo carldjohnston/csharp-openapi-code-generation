@@ -1,0 +1,157 @@
+[main] INFO  o.o.codegen.DefaultGenerator - Generating with dryRun=false
+[main] INFO  o.o.c.ignore.CodegenIgnoreProcessor - No .openapi-generator-ignore file found.
+[main] INFO  o.o.codegen.DefaultGenerator - OpenAPI Generator: csharp-netcore-functions (server)
+[main] INFO  o.o.codegen.DefaultGenerator - Generator 'csharp-netcore-functions' is considered beta.
+[main] INFO  o.o.c.l.AbstractCSharpCodegen - Environment variable CSHARP_POST_PROCESS_FILE not defined so the C# code may not be properly formatted by uncrustify (0.66 or later) or other code formatter. To define it, try `export CSHARP_POST_PROCESS_FILE="/usr/local/bin/uncrustify --no-backup" && export UNCRUSTIFY_CONFIG=/path/to/uncrustify-rules.cfg` (Linux/Mac). Note: replace /path/to with the location of uncrustify-rules.cfg
+[main] INFO  o.o.c.l.AbstractCSharpCodegen - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] INFO  o.o.c.languages.CSharpClientCodegen - Generating code for .NET Framework netcoreapp3.1
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: CommonPerson
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: CommonOrganisation
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: CommonPhysicalAddress
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: CommonPhysicalAddress
+[main] INFO  o.o.codegen.DefaultGenerator - Model Meta not generated since it's a free-form object
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonEmailAddress.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonEmailAddressTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonEmailAddress.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonOrganisation.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonOrganisationTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonOrganisation.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonOrganisationDetailV2.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonOrganisationDetailV2Tests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonOrganisationDetailV2.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonOrganisationDetailV2AllOf.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonOrganisationDetailV2AllOfTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonOrganisationDetailV2AllOf.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonPAFAddress.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonPAFAddressTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonPAFAddress.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonPerson.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonPersonTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonPerson.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonPersonDetailV2.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonPersonDetailV2Tests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonPersonDetailV2.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonPersonDetailV2AllOf.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonPersonDetailV2AllOfTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonPersonDetailV2AllOf.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonPhoneNumber.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonPhoneNumberTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonPhoneNumber.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonPhysicalAddress.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonPhysicalAddressTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonPhysicalAddress.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonPhysicalAddressWithPurpose1.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonPhysicalAddressWithPurpose1Tests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonPhysicalAddressWithPurpose1.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonPhysicalAddressWithPurpose1AllOf.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonPhysicalAddressWithPurpose1AllOfTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonPhysicalAddressWithPurpose1AllOf.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonPhysicalAddressWithPurpose2.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonPhysicalAddressWithPurpose2Tests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonPhysicalAddressWithPurpose2.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/CommonSimpleAddress.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/CommonSimpleAddressTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/CommonSimpleAddress.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/DiscoveryOutage.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/DiscoveryOutageTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/DiscoveryOutage.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/Links.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/LinksTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/Links.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/MetaError.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/MetaErrorTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/MetaError.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/ResponseCommonCustomer.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/ResponseCommonCustomerTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/ResponseCommonCustomer.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/ResponseCommonCustomerData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/ResponseCommonCustomerDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/ResponseCommonCustomerData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/ResponseCommonCustomerDetailV2.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/ResponseCommonCustomerDetailV2Tests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/ResponseCommonCustomerDetailV2.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/ResponseCommonCustomerDetailV2Data.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/ResponseCommonCustomerDetailV2DataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/ResponseCommonCustomerDetailV2Data.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/ResponseCommonDiscoveryStatus.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/ResponseCommonDiscoveryStatusTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/ResponseCommonDiscoveryStatus.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/ResponseCommonDiscoveryStatusData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/ResponseCommonDiscoveryStatusDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/ResponseCommonDiscoveryStatusData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/ResponseDiscoveryOutagesList.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/ResponseDiscoveryOutagesListTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/ResponseDiscoveryOutagesList.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/ResponseDiscoveryOutagesListData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/ResponseDiscoveryOutagesListDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/ResponseDiscoveryOutagesListData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/ResponseErrorListV2.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/ResponseErrorListV2Tests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/ResponseErrorListV2.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Models/ResponseErrorListV2Errors.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common.Test/Models/ResponseErrorListV2ErrorsTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/docs/ResponseErrorListV2Errors.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Functions/CommonApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Functions/CommonApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/Tests/Tests/Apis/CommonApiTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/Docs/CommonApi.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Functions/CustomerApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Functions/CustomerApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/Tests/Tests/Apis/CustomerApiTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/Docs/CustomerApi.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Functions/DiscoveryApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Functions/DiscoveryApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/Tests/Tests/Apis/DiscoveryApiTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/Docs/DiscoveryApi.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/README.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/project.json
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Client/IApiAccessor.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Client/Configuration.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Client/ApiClient.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Client/ApiException.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Client/ApiResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Client/ExceptionFactory.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/generatedSrc/Client/OpenAPIDateConverter.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/IApiAccessor.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/Configuration.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/ApiClient.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/ApiException.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/ApiResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/ExceptionFactory.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/OpenAPIDateConverter.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/ClientUtils.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/HttpMethod.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/IAsynchronousClient.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/ISynchronousClient.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/RequestOptions.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/Multimap.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/RetryConfiguration.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/IReadableConfiguration.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Client/GlobalConfiguration.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/README.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/git_push.sh
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/.gitignore
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/appveyor.yml
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/src/Agl.Cdr.Common/Models/AbstractOpenAPISchema.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/.openapi-generator-ignore
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/.openapi-generator/VERSION
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/common/.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+#                                                                              #
+# This generator's contributed by Jim Schubert (https://github.com/jimschubert)#
+# Please support his work directly via https://patreon.com/jimschubert 🙏      #
+################################################################################

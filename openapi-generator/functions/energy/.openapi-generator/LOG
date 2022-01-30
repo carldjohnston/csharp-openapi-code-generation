@@ -1,0 +1,2058 @@
+[main] INFO  o.o.codegen.DefaultGenerator - Generating with dryRun=false
+[main] INFO  o.o.c.ignore.CodegenIgnoreProcessor - No .openapi-generator-ignore file found.
+[main] INFO  o.o.codegen.DefaultGenerator - OpenAPI Generator: csharp-netcore-functions (server)
+[main] INFO  o.o.codegen.DefaultGenerator - Generator 'csharp-netcore-functions' is considered beta.
+[main] INFO  o.o.c.l.AbstractCSharpCodegen - Environment variable CSHARP_POST_PROCESS_FILE not defined so the C# code may not be properly formatted by uncrustify (0.66 or later) or other code formatter. To define it, try `export CSHARP_POST_PROCESS_FILE="/usr/local/bin/uncrustify --no-backup" && export UNCRUSTIFY_CONFIG=/path/to/uncrustify-rules.cfg` (Linux/Mac). Note: replace /path/to with the location of uncrustify-rules.cfg
+[main] INFO  o.o.c.l.AbstractCSharpCodegen - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] WARN  o.o.c.languages.CSharpClientCodegen - If using built-in templates, RestSharp only supports netstandard 2.0 or later.
+[main] INFO  o.o.c.languages.CSharpClientCodegen - Generating code for .NET Framework netcoreapp3.1
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: EnergyPlan
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: EnergyPlanContract
+[main] INFO  o.o.codegen.DefaultGenerator - Model EnergyPlanIncentives not generated since it's an alias to array (without property) and `generateAliasAsModel` is set to false (default)
+[main] INFO  o.o.codegen.DefaultGenerator - Model EnergyPlanDiscounts not generated since it's an alias to array (without property) and `generateAliasAsModel` is set to false (default)
+[main] INFO  o.o.codegen.DefaultGenerator - Model EnergyPlanGreenPowerCharges not generated since it's an alias to array (without property) and `generateAliasAsModel` is set to false (default)
+[main] INFO  o.o.codegen.DefaultGenerator - Model EnergyPlanEligibility not generated since it's an alias to array (without property) and `generateAliasAsModel` is set to false (default)
+[main] INFO  o.o.codegen.DefaultGenerator - Model EnergyPlanFees not generated since it's an alias to array (without property) and `generateAliasAsModel` is set to false (default)
+[main] INFO  o.o.codegen.DefaultGenerator - Model EnergyPlanSolarFeedInTariff not generated since it's an alias to array (without property) and `generateAliasAsModel` is set to false (default)
+[main] INFO  o.o.codegen.DefaultGenerator - Model EnergyPlanTariffPeriod not generated since it's an alias to array (without property) and `generateAliasAsModel` is set to false (default)
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: EnergyAccountBase
+[main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: EnergyAccountBase
+[main] INFO  o.o.codegen.DefaultGenerator - Model Meta not generated since it's a free-form object
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccount.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccount.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountAllOf.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountAllOfTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountAllOf.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountAllOfPlanOverview.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountAllOfPlanOverviewTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountAllOfPlanOverview.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountAllOfPlans.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountAllOfPlansTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountAllOfPlans.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountBase.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountBaseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountBase.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountDetail.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountDetailTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountDetail.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountDetailAllOf.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountDetailAllOfTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountDetailAllOf.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountDetailAllOfAuthorisedContacts.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountDetailAllOfAuthorisedContactsTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountDetailAllOfAuthorisedContacts.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountDetailAllOfPlanDetail.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountDetailAllOfPlanDetailTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountDetailAllOfPlanDetail.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountDetailAllOfPlans.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountDetailAllOfPlansTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountDetailAllOfPlans.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountDetailResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountDetailResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountDetailResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountListResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountListResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountListResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyAccountListResponseData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyAccountListResponseDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyAccountListResponseData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBalanceListResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBalanceListResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBalanceListResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBalanceListResponseData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBalanceListResponseDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBalanceListResponseData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBalanceListResponseDataBalances.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBalanceListResponseDataBalancesTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBalanceListResponseDataBalances.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBalanceResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBalanceResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBalanceResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBalanceResponseData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBalanceResponseDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBalanceResponseData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBillingDemandTransaction.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBillingDemandTransactionTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBillingDemandTransaction.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBillingListResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBillingListResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBillingListResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBillingListResponseData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBillingListResponseDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBillingListResponseData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBillingOnceOffTransaction.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBillingOnceOffTransactionTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBillingOnceOffTransaction.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBillingOtherTransaction.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBillingOtherTransactionTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBillingOtherTransaction.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBillingPaymentTransaction.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBillingPaymentTransactionTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBillingPaymentTransaction.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBillingTransaction.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBillingTransactionTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBillingTransaction.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBillingUsageTransaction.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBillingUsageTransactionTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBillingUsageTransaction.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBillingUsageTransactionAdjustments.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBillingUsageTransactionAdjustmentsTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBillingUsageTransactionAdjustments.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyBillingUsageTransactionCalculationFactors.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyBillingUsageTransactionCalculationFactorsTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyBillingUsageTransactionCalculationFactors.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyConcession.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyConcessionTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyConcession.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyConcessionsResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyConcessionsResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyConcessionsResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyConcessionsResponseData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyConcessionsResponseDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyConcessionsResponseData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyDerDetailResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyDerDetailResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyDerDetailResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyDerListResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyDerListResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyDerListResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyDerListResponseData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyDerListResponseDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyDerListResponseData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyDerRecord.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyDerRecordTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyDerRecord.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyDerRecordAcConnections.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyDerRecordAcConnectionsTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyDerRecordAcConnections.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyDerRecordDerDevices.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyDerRecordDerDevicesTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyDerRecordDerDevices.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyDerRecordProtectionMode.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyDerRecordProtectionModeTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyDerRecordProtectionMode.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyInvoice.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyInvoiceTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyInvoice.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyInvoiceAccountCharges.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyInvoiceAccountChargesTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyInvoiceAccountCharges.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyInvoiceElectricityUsageCharges.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyInvoiceElectricityUsageChargesTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyInvoiceElectricityUsageCharges.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyInvoiceGasUsageCharges.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyInvoiceGasUsageChargesTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyInvoiceGasUsageCharges.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyInvoiceGasUsageChargesOtherCharges.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyInvoiceGasUsageChargesOtherChargesTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyInvoiceGasUsageChargesOtherCharges.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyInvoiceListResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyInvoiceListResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyInvoiceListResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyInvoiceListResponseData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyInvoiceListResponseDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyInvoiceListResponseData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyInvoicePayOnTimeDiscount.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyInvoicePayOnTimeDiscountTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyInvoicePayOnTimeDiscount.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyInvoicePeriod.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyInvoicePeriodTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyInvoicePeriod.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPaymentSchedule.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPaymentScheduleTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPaymentSchedule.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPaymentScheduleCardDebit.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPaymentScheduleCardDebitTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPaymentScheduleCardDebit.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPaymentScheduleDirectDebit.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPaymentScheduleDirectDebitTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPaymentScheduleDirectDebit.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPaymentScheduleManualPayment.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPaymentScheduleManualPaymentTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPaymentScheduleManualPayment.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPaymentScheduleResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPaymentScheduleResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPaymentScheduleResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlan.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlan.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanAdditionalInformation.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanAdditionalInformationTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanAdditionalInformation.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanContract.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanContractTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanContract.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanContractFull.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanContractFullTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanContractFull.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanContractFullAllOf.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanContractFullAllOfTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanContractFullAllOf.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanContractIntrinsicGreenPower.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanContractIntrinsicGreenPowerTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanContractIntrinsicGreenPower.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanControlledLoad.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanControlledLoadTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanControlledLoad.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanControlledLoadRates.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanControlledLoadRatesTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanControlledLoadRates.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanDetail.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanDetailTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanDetail.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanDetailAllOf.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanDetailAllOfTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanDetailAllOf.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanDetailAllOfMeteringCharges.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanDetailAllOfMeteringChargesTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanDetailAllOfMeteringCharges.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanGeography.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanGeographyTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanGeography.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanListResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanListResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanListResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanListResponseData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanListResponseDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanListResponseData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyPlanResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyPlanResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyPlanResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePoint.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePoint.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointConsumerProfile.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointConsumerProfileTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointConsumerProfile.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointDetail.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointDetailTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointDetail.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointDetailDistributionLossFactor.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointDetailDistributionLossFactorTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointDetailDistributionLossFactor.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointDetailLocation.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointDetailLocationTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointDetailLocation.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointDetailLocationPaf.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointDetailLocationPafTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointDetailLocationPaf.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointDetailLocationSimple.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointDetailLocationSimpleTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointDetailLocationSimple.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointDetailMeters.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointDetailMetersTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointDetailMeters.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointDetailMetersRegisters.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointDetailMetersRegistersTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointDetailMetersRegisters.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointDetailMetersSpecifications.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointDetailMetersSpecificationsTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointDetailMetersSpecifications.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointDetailRelatedParticipants.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointDetailRelatedParticipantsTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointDetailRelatedParticipants.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointDetailResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointDetailResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointDetailResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointListResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointListResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointListResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyServicePointListResponseData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyServicePointListResponseDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyServicePointListResponseData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyUsageListResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyUsageListResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyUsageListResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyUsageListResponseData.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyUsageListResponseDataTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyUsageListResponseData.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyUsageRead.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyUsageReadTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyUsageRead.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyUsageReadBasicRead.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyUsageReadBasicReadTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyUsageReadBasicRead.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyUsageReadIntervalRead.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyUsageReadIntervalReadTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyUsageReadIntervalRead.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/EnergyUsageReadIntervalReadIntervalReads.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/EnergyUsageReadIntervalReadIntervalReadsTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/EnergyUsageReadIntervalReadIntervalReads.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/ErrorListResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/ErrorListResponseTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/ErrorListResponse.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/ErrorListResponseErrors.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/ErrorListResponseErrorsTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/ErrorListResponseErrors.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/ErrorListResponseMeta.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/ErrorListResponseMetaTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/ErrorListResponseMeta.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/Links.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/LinksTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/Links.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/LinksPaginated.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/LinksPaginatedTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/LinksPaginated.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Models/MetaPaginated.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy.Test/Models/MetaPaginatedTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/docs/MetaPaginated.md
+[main] WARN  o.o.codegen.DefaultCodegen - The following schema has undefined (null) baseType. It could be due to form parameter defined in OpenAPI v2 spec with incorrect consumes. A correct 'consumes' for form parameters should be 'application/x-www-form-urlencoded' or 'multipart/?'
+[main] WARN  o.o.codegen.DefaultCodegen - schema: class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [data, meta]
+        not: null
+        properties: {data=class ObjectSchema {
+            class Schema {
+                type: object
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [servicePointIds]
+                not: null
+                properties: {servicePointIds=class ArraySchema {
+                    class Schema {
+                        type: array
+                        format: null
+                        $ref: null
+                        description: Array of specific servicePointIds to obtain data for
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                    items: class StringSchema {
+                        class Schema {
+                            type: string
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, meta=class Schema {
+            type: null
+            format: null
+            $ref: #/components/schemas/Meta
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+[main] WARN  o.o.codegen.DefaultCodegen - codegenModel is null. Default to UNKNOWN_BASE_TYPE
+[main] WARN  o.o.codegen.DefaultCodegen - The following schema has undefined (null) baseType. It could be due to form parameter defined in OpenAPI v2 spec with incorrect consumes. A correct 'consumes' for form parameters should be 'application/x-www-form-urlencoded' or 'multipart/?'
+[main] WARN  o.o.codegen.DefaultCodegen - schema: class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [data, meta]
+        not: null
+        properties: {data=class ObjectSchema {
+            class Schema {
+                type: object
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [servicePointIds]
+                not: null
+                properties: {servicePointIds=class ArraySchema {
+                    class Schema {
+                        type: array
+                        format: null
+                        $ref: null
+                        description: Array of specific servicePointIds to obtain data for
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                    items: class StringSchema {
+                        class Schema {
+                            type: string
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, meta=class Schema {
+            type: null
+            format: null
+            $ref: #/components/schemas/Meta
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+[main] WARN  o.o.codegen.DefaultCodegen - codegenModel is null. Default to UNKNOWN_BASE_TYPE
+[main] WARN  o.o.codegen.DefaultCodegen - The following schema has undefined (null) baseType. It could be due to form parameter defined in OpenAPI v2 spec with incorrect consumes. A correct 'consumes' for form parameters should be 'application/x-www-form-urlencoded' or 'multipart/?'
+[main] WARN  o.o.codegen.DefaultCodegen - schema: class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [data, meta]
+        not: null
+        properties: {data=class ObjectSchema {
+            class Schema {
+                type: object
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [servicePointIds]
+                not: null
+                properties: {servicePointIds=class ArraySchema {
+                    class Schema {
+                        type: array
+                        format: null
+                        $ref: null
+                        description: Array of specific servicePointIds to obtain data for
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                    items: class StringSchema {
+                        class Schema {
+                            type: string
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, meta=class Schema {
+            type: null
+            format: null
+            $ref: #/components/schemas/Meta
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+[main] WARN  o.o.codegen.DefaultCodegen - codegenModel is null. Default to UNKNOWN_BASE_TYPE
+[main] WARN  o.o.codegen.DefaultCodegen - The following schema has undefined (null) baseType. It could be due to form parameter defined in OpenAPI v2 spec with incorrect consumes. A correct 'consumes' for form parameters should be 'application/x-www-form-urlencoded' or 'multipart/?'
+[main] WARN  o.o.codegen.DefaultCodegen - schema: class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [data, meta]
+        not: null
+        properties: {data=class ObjectSchema {
+            class Schema {
+                type: object
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [servicePointIds]
+                not: null
+                properties: {servicePointIds=class ArraySchema {
+                    class Schema {
+                        type: array
+                        format: null
+                        $ref: null
+                        description: Array of specific servicePointIds to obtain data for
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                    items: class StringSchema {
+                        class Schema {
+                            type: string
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, meta=class Schema {
+            type: null
+            format: null
+            $ref: #/components/schemas/Meta
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+[main] WARN  o.o.codegen.DefaultCodegen - codegenModel is null. Default to UNKNOWN_BASE_TYPE
+[main] WARN  o.o.codegen.DefaultCodegen - The following schema has undefined (null) baseType. It could be due to form parameter defined in OpenAPI v2 spec with incorrect consumes. A correct 'consumes' for form parameters should be 'application/x-www-form-urlencoded' or 'multipart/?'
+[main] WARN  o.o.codegen.DefaultCodegen - schema: class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [data, meta]
+        not: null
+        properties: {data=class ObjectSchema {
+            class Schema {
+                type: object
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [accountIds]
+                not: null
+                properties: {accountIds=class ArraySchema {
+                    class Schema {
+                        type: array
+                        format: null
+                        $ref: null
+                        description: Array of specific accountIds to obtain data for
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                    items: class StringSchema {
+                        class Schema {
+                            type: string
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, meta=class Schema {
+            type: null
+            format: null
+            $ref: #/components/schemas/Meta
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+[main] WARN  o.o.codegen.DefaultCodegen - codegenModel is null. Default to UNKNOWN_BASE_TYPE
+[main] WARN  o.o.codegen.DefaultCodegen - The following schema has undefined (null) baseType. It could be due to form parameter defined in OpenAPI v2 spec with incorrect consumes. A correct 'consumes' for form parameters should be 'application/x-www-form-urlencoded' or 'multipart/?'
+[main] WARN  o.o.codegen.DefaultCodegen - schema: class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [data, meta]
+        not: null
+        properties: {data=class ObjectSchema {
+            class Schema {
+                type: object
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [accountIds]
+                not: null
+                properties: {accountIds=class ArraySchema {
+                    class Schema {
+                        type: array
+                        format: null
+                        $ref: null
+                        description: Array of specific accountIds to obtain data for
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                    items: class StringSchema {
+                        class Schema {
+                            type: string
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, meta=class Schema {
+            type: null
+            format: null
+            $ref: #/components/schemas/Meta
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+[main] WARN  o.o.codegen.DefaultCodegen - codegenModel is null. Default to UNKNOWN_BASE_TYPE
+[main] WARN  o.o.codegen.DefaultCodegen - The following schema has undefined (null) baseType. It could be due to form parameter defined in OpenAPI v2 spec with incorrect consumes. A correct 'consumes' for form parameters should be 'application/x-www-form-urlencoded' or 'multipart/?'
+[main] WARN  o.o.codegen.DefaultCodegen - schema: class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [data, meta]
+        not: null
+        properties: {data=class ObjectSchema {
+            class Schema {
+                type: object
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [accountIds]
+                not: null
+                properties: {accountIds=class ArraySchema {
+                    class Schema {
+                        type: array
+                        format: null
+                        $ref: null
+                        description: Array of specific accountIds to obtain data for
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                    items: class StringSchema {
+                        class Schema {
+                            type: string
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, meta=class Schema {
+            type: null
+            format: null
+            $ref: #/components/schemas/Meta
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+[main] WARN  o.o.codegen.DefaultCodegen - codegenModel is null. Default to UNKNOWN_BASE_TYPE
+[main] WARN  o.o.codegen.DefaultCodegen - The following schema has undefined (null) baseType. It could be due to form parameter defined in OpenAPI v2 spec with incorrect consumes. A correct 'consumes' for form parameters should be 'application/x-www-form-urlencoded' or 'multipart/?'
+[main] WARN  o.o.codegen.DefaultCodegen - schema: class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [data, meta]
+        not: null
+        properties: {data=class ObjectSchema {
+            class Schema {
+                type: object
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [accountIds]
+                not: null
+                properties: {accountIds=class ArraySchema {
+                    class Schema {
+                        type: array
+                        format: null
+                        $ref: null
+                        description: Array of specific accountIds to obtain data for
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                    items: class StringSchema {
+                        class Schema {
+                            type: string
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, meta=class Schema {
+            type: null
+            format: null
+            $ref: #/components/schemas/Meta
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+[main] WARN  o.o.codegen.DefaultCodegen - codegenModel is null. Default to UNKNOWN_BASE_TYPE
+[main] WARN  o.o.codegen.DefaultCodegen - The following schema has undefined (null) baseType. It could be due to form parameter defined in OpenAPI v2 spec with incorrect consumes. A correct 'consumes' for form parameters should be 'application/x-www-form-urlencoded' or 'multipart/?'
+[main] WARN  o.o.codegen.DefaultCodegen - schema: class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [data, meta]
+        not: null
+        properties: {data=class ObjectSchema {
+            class Schema {
+                type: object
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [accountIds]
+                not: null
+                properties: {accountIds=class ArraySchema {
+                    class Schema {
+                        type: array
+                        format: null
+                        $ref: null
+                        description: Array of specific accountIds to obtain data for
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                    items: class StringSchema {
+                        class Schema {
+                            type: string
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, meta=class Schema {
+            type: null
+            format: null
+            $ref: #/components/schemas/Meta
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+[main] WARN  o.o.codegen.DefaultCodegen - codegenModel is null. Default to UNKNOWN_BASE_TYPE
+[main] WARN  o.o.codegen.DefaultCodegen - The following schema has undefined (null) baseType. It could be due to form parameter defined in OpenAPI v2 spec with incorrect consumes. A correct 'consumes' for form parameters should be 'application/x-www-form-urlencoded' or 'multipart/?'
+[main] WARN  o.o.codegen.DefaultCodegen - schema: class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [data, meta]
+        not: null
+        properties: {data=class ObjectSchema {
+            class Schema {
+                type: object
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [accountIds]
+                not: null
+                properties: {accountIds=class ArraySchema {
+                    class Schema {
+                        type: array
+                        format: null
+                        $ref: null
+                        description: Array of specific accountIds to obtain data for
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                    items: class StringSchema {
+                        class Schema {
+                            type: string
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, meta=class Schema {
+            type: null
+            format: null
+            $ref: #/components/schemas/Meta
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+[main] WARN  o.o.codegen.DefaultCodegen - codegenModel is null. Default to UNKNOWN_BASE_TYPE
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/BillingApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/BillingApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Tests/Tests/Apis/BillingApiTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Docs/BillingApi.md
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/DistributedEnergyResourcesApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/DistributedEnergyResourcesApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Tests/Tests/Apis/DistributedEnergyResourcesApiTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Docs/DistributedEnergyResourcesApi.md
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/ElectricityUsageApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/ElectricityUsageApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Tests/Tests/Apis/ElectricityUsageApiTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Docs/ElectricityUsageApi.md
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/EnergyApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/EnergyApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Tests/Tests/Apis/EnergyApiTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Docs/EnergyApi.md
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/EnergyAccountsApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/EnergyAccountsApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Tests/Tests/Apis/EnergyAccountsApiTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Docs/EnergyAccountsApi.md
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/GenericTariffsApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/GenericTariffsApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Tests/Tests/Apis/GenericTariffsApiTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Docs/GenericTariffsApi.md
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/NMIStandingDataApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Functions/NMIStandingDataApi.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Tests/Tests/Apis/NMIStandingDataApiTests.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/Docs/NMIStandingDataApi.md
+[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/README.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/project.json
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Client/IApiAccessor.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Client/Configuration.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Client/ApiClient.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Client/ApiException.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Client/ApiResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Client/ExceptionFactory.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/generatedSrc/Client/OpenAPIDateConverter.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/IApiAccessor.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/Configuration.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/ApiClient.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/ApiException.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/ApiResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/ExceptionFactory.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/OpenAPIDateConverter.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/ClientUtils.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/HttpMethod.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/IAsynchronousClient.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/ISynchronousClient.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/RequestOptions.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/Multimap.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/RetryConfiguration.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/IReadableConfiguration.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Client/GlobalConfiguration.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/README.md
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/git_push.sh
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/.gitignore
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/appveyor.yml
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/src/Agl.Cdr.Energy/Models/AbstractOpenAPISchema.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/.openapi-generator-ignore
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/.openapi-generator/VERSION
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/functions/energy/.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+#                                                                              #
+# This generator's contributed by Jim Schubert (https://github.com/jimschubert)#
+# Please support his work directly via https://patreon.com/jimschubert 🙏      #
+################################################################################
