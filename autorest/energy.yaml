@@ -1,0 +1,5 @@
+---
+input-file: /workspace/cds_energy.json
+namespace: Agl.Cdr.Energy
+azure-functions-csharp: true
+output-folder: /workspace/autorest/energy
