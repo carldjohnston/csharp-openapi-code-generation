@@ -1,0 +1,18 @@
+SourceMapConsumer.initialize is a no-op when running in node.js
+[32m[1m[4mAutoRest code generation utility [cli version: [37m[1m3.5.1[22m[1m[39m[32m; node: [37m[1mv14.18.3[22m[1m[39m[32m][24m[22m[39m
+(C) 2018 [1mMicrosoft Corporation.[22m
+[34m[1m[4mhttps://aka.ms/autorest[24m[22m[39m
+[?25l[?7l[1G[1Ginstalling core... [----------------------------------------] 0% | 0/1[0K[1G[1Ginstalling core... [----------------------------------------] 0% | 0/1[0K[1G[1Ginstalling core... [=========================---------------] 61% | 128/208[0K[1G[1Ginstalling core... [========================================] 100% | 2/2[0K[1Ginstalling core... [========================================] 100% | 2/2[0K[1G
+[0J[?25h[?7h[1A[1G
+SourceMapConsumer.initialize is a no-op when running in node.js
+[32minfo   [39m | [36m   Loading AutoRest core      [90m'/root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist'[39m (3.7.5)[39m
+[?25l[?7l[1G[0K[32minfo   [39m | [36m   Installing AutoRest extension [90m'@autorest/azure-functions-csharp'[39m (latest -> 0.2.0-preview-dev.321054549)[39m
+[1Ginstalling... [----------------------------------------] 0% | 0/1[0K[1Ginstalling... [========================================] 100% | 2/2[0K[1G
+[0J[?25h[?7h[1A[1G
+[32minfo   [39m | [36m   Installed AutoRest extension [90m'@autorest/azure-functions-csharp'[39m (latest->0.2.0-preview-dev.321054549)[39m
+[?25l[?7l[1G[0K[32minfo   [39m | [36m   Installing AutoRest extension [90m'@autorest/modelerfour'[39m (4.15.414 -> 4.15.414)[39m
+[1Ginstalling... [----------------------------------------] 0% | 0/1[0K[1Ginstalling... [========================================] 100% | 2/2[0K[1G
+[0J[?25h[?7h[1A[1G
+[32minfo   [39m | [36m   Installed AutoRest extension [90m'@autorest/modelerfour'[39m (4.15.414->4.15.414)[39m
+[33m[1mwarning[22m[39m | [32mPreCheck/CheckDuplicateSchemas[39m | Checking for duplicate schemas, this could take a (long) while.  Run with --verbose for more detail.
+[32minfo   [39m | Generation Complete

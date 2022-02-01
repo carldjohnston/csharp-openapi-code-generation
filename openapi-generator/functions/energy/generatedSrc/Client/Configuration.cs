@@ -107,7 +107,7 @@ namespace Agl.Cdr.Energy.Client
         {
             Proxy = null;
             UserAgent = "OpenAPI-Generator/1.0.0/csharp";
-            BasePath = "http://localhost";
+            BasePath = "http://example.com";
             DefaultHeaders = new ConcurrentDictionary<string, string>();
             ApiKey = new ConcurrentDictionary<string, string>();
             ApiKeyPrefix = new ConcurrentDictionary<string, string>();
@@ -115,7 +115,7 @@ namespace Agl.Cdr.Energy.Client
             {
                 {
                     new Dictionary<string, object> {
-                        {"url", ""},
+                        {"url", "http://example.com"},
                         {"description", "No description provided"},
                     }
                 }
@@ -133,7 +133,7 @@ namespace Agl.Cdr.Energy.Client
             IDictionary<string, string> defaultHeaders,
             IDictionary<string, string> apiKey,
             IDictionary<string, string> apiKeyPrefix,
-            string basePath = "http://localhost") : this()
+            string basePath = "http://example.com") : this()
         {
             if (string.IsNullOrWhiteSpace(basePath))
                 throw new ArgumentException("The provided basePath is invalid.", "basePath");

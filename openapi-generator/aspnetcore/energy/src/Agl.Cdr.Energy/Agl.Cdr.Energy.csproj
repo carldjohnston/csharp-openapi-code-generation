@@ -9,7 +9,7 @@
     <Version>1.0.0</Version>
     <AssemblyName>Agl.Cdr.Energy</AssemblyName>
     <PackageId>Agl.Cdr.Energy</PackageId>
-    <UserSecretsId>b446990b-c38e-4f0c-aa5c-2ef6af7dad35</UserSecretsId>
+    <UserSecretsId>4c7a31b8-d501-4ec1-a90c-f541e7414293</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>

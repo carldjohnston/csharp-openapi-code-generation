@@ -1,5 +1,4 @@
 [main] INFO  o.o.codegen.DefaultGenerator - Generating with dryRun=false
-[main] INFO  o.o.c.ignore.CodegenIgnoreProcessor - No .openapi-generator-ignore file found.
 [main] INFO  o.o.codegen.DefaultGenerator - OpenAPI Generator: aspnetcore (server)
 [main] INFO  o.o.codegen.DefaultGenerator - Generator 'aspnetcore' is considered stable.
 [main] INFO  o.o.c.l.AbstractCSharpCodegen - Environment variable CSHARP_POST_PROCESS_FILE not defined so the C# code may not be properly formatted by uncrustify (0.66 or later) or other code formatter. To define it, try `export CSHARP_POST_PROCESS_FILE="/usr/local/bin/uncrustify --no-backup" && export UNCRUSTIFY_CONFIG=/path/to/uncrustify-rules.cfg` (Linux/Mac). Note: replace /path/to with the location of uncrustify-rules.cfg
@@ -8,9 +7,6 @@
 [main] WARN  o.o.c.l.AspNetCoreServerCodegen - ASP.NET core version is 3.1 so changing default Swashbuckle version to 5.0.0.
 [main] WARN  o.o.c.l.AspNetCoreServerCodegen - ASP.NET core version is 3.1 so changing to use frameworkReference instead of packageReference 
 [main] WARN  o.o.c.l.AspNetCoreServerCodegen - ASP.NET core version is 3.1 so switching to old style endpoint routing.
-[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
-[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
-[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
 [main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: EnergyPlan
 [main] WARN  o.o.codegen.DefaultCodegen - allOf with multiple schemas defined. Using only the first one: EnergyPlanContract
 [main] INFO  o.o.codegen.DefaultGenerator - Model EnergyPlanIncentives not generated since it's an alias to array (without property) and `generateAliasAsModel` is set to false (default)
@@ -90,6 +86,7 @@
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Models/EnergyPlanListResponse.cs
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Models/EnergyPlanListResponseData.cs
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Models/EnergyPlanResponse.cs
+[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Models/EnergyPlanTariffPeriodSingleRates.cs
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Models/EnergyServicePoint.cs
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Models/EnergyServicePointConsumerProfile.cs
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Models/EnergyServicePointDetail.cs
@@ -1786,21 +1783,13 @@
     }
 }
 [main] WARN  o.o.codegen.DefaultCodegen - codegenModel is null. Default to UNKNOWN_BASE_TYPE
-[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Controllers/BillingApi.cs
-[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Controllers/DistributedEnergyResourcesApi.cs
-[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Controllers/ElectricityUsageApi.cs
-[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Controllers/EnergyApi.cs
-[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Controllers/EnergyAccountsApi.cs
-[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Controllers/GenericTariffsApi.cs
-[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Controllers/NMIStandingDataApi.cs
-[main] INFO  o.o.codegen.utils.URLPathUtils - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/build.sh
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/build.bat
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/README.md
@@ -1822,7 +1811,7 @@
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Filters/GeneratePathParamsValidationFilter.cs
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Authentication/ApiAuthentication.cs
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/src/Agl.Cdr.Energy/Formatters/InputFormatterStream.cs
-[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/.openapi-generator-ignore
+[main] INFO  o.o.codegen.TemplateManager - Skipped /workspace/openapi-generator/aspnetcore/energy/.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/.openapi-generator/VERSION
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/energy/.openapi-generator/FILES
 ################################################################################

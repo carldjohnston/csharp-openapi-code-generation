@@ -84,7 +84,7 @@ namespace Example
         {
 
             Configuration config = new Configuration();
-            config.BasePath = "http://localhost";
+            config.BasePath = "http://example.com";
             var apiInstance = new BillingApi(config);
             var accountId = accountId_example;  // string | ID of a specific account to obtain data for.  This is a tokenised ID previous obtained from the Account List end point.
             var xV = xV_example;  // string | Version of the API end point requested by the client. Must be set to a positive integer. The data holder should respond with the highest supported version between [x-min-v](#request-headers) and [x-v](#request-headers). If the value of [x-min-v](#request-headers) is equal to or higher than the value of [x-v](#request-headers) then the [x-min-v](#request-headers) header should be treated as absent. If all versions requested are not supported then the data holder must respond with a 406 Not Acceptable. See [HTTP Headers](#request-headers)
@@ -115,7 +115,7 @@ namespace Example
 <a name="documentation-for-api-endpoints"></a>
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *http://example.com*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
@@ -237,6 +237,7 @@ Class | Method | HTTP request | Description
  - [Models.EnergyPlanListResponse](docs/EnergyPlanListResponse.md)
  - [Models.EnergyPlanListResponseData](docs/EnergyPlanListResponseData.md)
  - [Models.EnergyPlanResponse](docs/EnergyPlanResponse.md)
+ - [Models.EnergyPlanTariffPeriodSingleRates](docs/EnergyPlanTariffPeriodSingleRates.md)
  - [Models.EnergyServicePoint](docs/EnergyServicePoint.md)
  - [Models.EnergyServicePointConsumerProfile](docs/EnergyServicePointConsumerProfile.md)
  - [Models.EnergyServicePointDetail](docs/EnergyServicePointDetail.md)

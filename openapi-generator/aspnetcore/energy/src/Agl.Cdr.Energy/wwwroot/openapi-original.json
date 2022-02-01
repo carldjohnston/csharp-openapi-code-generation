@@ -6,7 +6,7 @@
     "version" : "1.15.0"
   },
   "servers" : [ {
-    "url" : "/"
+    "url" : "http://example.com/"
   } ],
   "paths" : {
     "/energy/plans" : {
@@ -5835,24 +5835,7 @@
                     "rates" : {
                       "description" : "Array of controlled load rates in order of usage volume",
                       "items" : {
-                        "properties" : {
-                          "unitPrice" : {
-                            "description" : "Unit price of usage per measure unit (exclusive of GST)",
-                            "type" : "string",
-                            "x-cds-type" : "AmountString"
-                          },
-                          "measureUnit" : {
-                            "description" : "The measurement unit of rate. Assumed to be KWH if absent",
-                            "enum" : [ "KWH", "KVA", "KVAR", "KVARH", "KW", "DAYS", "METER", "MONTH" ],
-                            "type" : "string"
-                          },
-                          "volume" : {
-                            "description" : "Volume in kWh that this rate applies to.  Only applicable for ‘stepped’ rates where different rates apply for different volumes of usage in a period",
-                            "type" : "number"
-                          }
-                        },
-                        "required" : [ "unitPrice" ],
-                        "type" : "object"
+                        "$ref" : "#/components/schemas/EnergyPlanTariffPeriod_single_rates"
                       },
                       "type" : "array"
                     },
@@ -6441,24 +6424,7 @@
                 "rates" : {
                   "description" : "Array of controlled load rates in order of usage volume",
                   "items" : {
-                    "properties" : {
-                      "unitPrice" : {
-                        "description" : "Unit price of usage per measure unit (exclusive of GST)",
-                        "type" : "string",
-                        "x-cds-type" : "AmountString"
-                      },
-                      "measureUnit" : {
-                        "description" : "The measurement unit of rate. Assumed to be KWH if absent",
-                        "enum" : [ "KWH", "KVA", "KVAR", "KVARH", "KW", "DAYS", "METER", "MONTH" ],
-                        "type" : "string"
-                      },
-                      "volume" : {
-                        "description" : "Volume in kWh that this rate applies to.  Only applicable for ‘stepped’ rates where different rates apply for different volumes of usage in a period",
-                        "type" : "number"
-                      }
-                    },
-                    "required" : [ "unitPrice" ],
-                    "type" : "object"
+                    "$ref" : "#/components/schemas/EnergyPlanTariffPeriod_single_rates"
                   },
                   "type" : "array"
                 },
@@ -6626,6 +6592,26 @@
           "x-conditional" : [ "singleRate", "timeOfUseRates", "demandCharges" ]
         },
         "type" : "array"
+      },
+      "EnergyPlanTariffPeriod_single_rates" : {
+        "properties" : {
+          "unitPrice" : {
+            "description" : "Unit price of usage per measure unit (exclusive of GST)",
+            "type" : "string",
+            "x-cds-type" : "AmountString"
+          },
+          "measureUnit" : {
+            "description" : "The measurement unit of rate. Assumed to be KWH if absent",
+            "enum" : [ "KWH", "KVA", "KVAR", "KVARH", "KW", "DAYS", "METER", "MONTH" ],
+            "type" : "string"
+          },
+          "volume" : {
+            "description" : "Volume in kWh that this rate applies to.  Only applicable for ‘stepped’ rates where different rates apply for different volumes of usage in a period",
+            "type" : "number"
+          }
+        },
+        "required" : [ "unitPrice" ],
+        "type" : "object"
       },
       "EnergyServicePoint" : {
         "example" : {

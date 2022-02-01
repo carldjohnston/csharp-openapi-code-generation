@@ -9,7 +9,7 @@
     <Version>1.0.0</Version>
     <AssemblyName>Agl.Cdr.Admin</AssemblyName>
     <PackageId>Agl.Cdr.Admin</PackageId>
-    <UserSecretsId>5090974f-b88d-4afc-bc65-c1e74e67bb83</UserSecretsId>
+    <UserSecretsId>e8bed007-8164-448a-84c0-c71d43cea271</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>

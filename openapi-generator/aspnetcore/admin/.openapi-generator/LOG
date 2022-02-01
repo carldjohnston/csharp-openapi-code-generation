@@ -1,5 +1,4 @@
 [main] INFO  o.o.codegen.DefaultGenerator - Generating with dryRun=false
-[main] INFO  o.o.c.ignore.CodegenIgnoreProcessor - No .openapi-generator-ignore file found.
 [main] INFO  o.o.codegen.DefaultGenerator - OpenAPI Generator: aspnetcore (server)
 [main] INFO  o.o.codegen.DefaultGenerator - Generator 'aspnetcore' is considered stable.
 [main] INFO  o.o.c.l.AbstractCSharpCodegen - Environment variable CSHARP_POST_PROCESS_FILE not defined so the C# code may not be properly formatted by uncrustify (0.66 or later) or other code formatter. To define it, try `export CSHARP_POST_PROCESS_FILE="/usr/local/bin/uncrustify --no-backup" && export UNCRUSTIFY_CONFIG=/path/to/uncrustify-rules.cfg` (Linux/Mac). Note: replace /path/to with the location of uncrustify-rules.cfg
@@ -71,7 +70,7 @@
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/admin/src/Agl.Cdr.Admin/Filters/GeneratePathParamsValidationFilter.cs
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/admin/src/Agl.Cdr.Admin/Authentication/ApiAuthentication.cs
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/admin/src/Agl.Cdr.Admin/Formatters/InputFormatterStream.cs
-[main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/admin/.openapi-generator-ignore
+[main] INFO  o.o.codegen.TemplateManager - Skipped /workspace/openapi-generator/aspnetcore/admin/.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/admin/.openapi-generator/VERSION
 [main] INFO  o.o.codegen.TemplateManager - writing file /workspace/openapi-generator/aspnetcore/admin/.openapi-generator/FILES
 ################################################################################

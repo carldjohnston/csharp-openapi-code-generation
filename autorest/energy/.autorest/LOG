@@ -1,0 +1,337 @@
+SourceMapConsumer.initialize is a no-op when running in node.js
+[32m[1m[4mAutoRest code generation utility [cli version: [37m[1m3.5.1[22m[1m[39m[32m; node: [37m[1mv14.18.3[22m[1m[39m[32m][24m[22m[39m
+(C) 2018 [1mMicrosoft Corporation.[22m
+[34m[1m[4mhttps://aka.ms/autorest[24m[22m[39m
+[34mdebug  [39m | [33m[1.33 s][39m Network Enabled: true
+[34mdebug  [39m | [33m[1.60 s][39m No @autorest/core (or @microsoft.azure/autorest-core) is installed.
+[34mdebug  [39m | [33m[1.60 s][39m latest-installed was not satisfied directly by a previous installation.
+[?25l[?7l[1G[1Ginstalling core... [----------------------------------------] 0% | 0/1[0K[1G[1Ginstalling core... [=====-----------------------------------] 12% | 25/208[0K[1G[1Ginstalling core... [========================================] 100% | 2/2[0K[1Ginstalling core... [========================================] 100% | 2/2[0K[1G
+[0J[?25h[?7h[1A[1G
+[34mdebug  [39m | [33m[4.44 s][39m Starting @autorest/core from /root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core
+SourceMapConsumer.initialize is a no-op when running in node.js
+[32minfo   [39m | [36m   Loading AutoRest core      [90m'/root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist'[39m (3.7.5)[39m
+[90mverbose[39m | [33m[1.42 s][39m [36m   Initial configuration file [90m'file:///workspace/autorest/energy.yaml'[39m[39m
+[90mverbose[39m | [33m[1.42 s][39m [36m   Including configuration file [90m'file:///workspace/autorest/energy.yaml'[39m[39m
+[90mverbose[39m | [33m[1.43 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/default-configuration.md'[39m[39m
+[90mverbose[39m | [33m[1.47 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/inspect.md'[39m[39m
+[90mverbose[39m | [33m[1.48 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/directives.md'[39m[39m
+[90mverbose[39m | [33m[1.51 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/pipeline.md'[39m[39m
+[90mverbose[39m | [33m[1.54 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/loader-openapi.md'[39m[39m
+[90mverbose[39m | [33m[1.56 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/miscellaneous.md'[39m[39m
+[90mverbose[39m | [33m[1.58 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-powershell.md'[39m[39m
+[90mverbose[39m | [33m[1.61 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-azureresourceschema.md'[39m[39m
+[90mverbose[39m | [33m[1.63 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-csharp.md'[39m[39m
+[90mverbose[39m | [33m[1.66 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-go.md'[39m[39m
+[90mverbose[39m | [33m[1.69 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-java.md'[39m[39m
+[90mverbose[39m | [33m[1.72 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-nodejs.md'[39m[39m
+[90mverbose[39m | [33m[1.74 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-php.md'[39m[39m
+[90mverbose[39m | [33m[1.77 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-python.md'[39m[39m
+[90mverbose[39m | [33m[1.80 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-ruby.md'[39m[39m
+[90mverbose[39m | [33m[1.83 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-typescript.md'[39m[39m
+[90mverbose[39m | [33m[1.86 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-validators.md'[39m[39m
+[90mverbose[39m | [33m[1.89 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-az.md'[39m[39m
+[90mverbose[39m | [33m[1.93 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-terraform.md'[39m[39m
+[90mverbose[39m | [33m[1.95 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/plugin-azure-functions.md'[39m[39m
+[90mverbose[39m | [33m[1.99 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/graphs.md'[39m[39m
+[90mverbose[39m | [33m[2.03 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mcore@3.7.5/node[23mmodules/@autorest/core/dist/resources/help-configuration.md'[39m[39m
+[?25l[?7l[1G[0K[32minfo   [39m | [36m   Installing AutoRest extension [90m'@autorest/azure-functions-csharp'[39m (latest -> 0.2.0-preview-dev.321054549)[39m
+[1Ginstalling... [----------------------------------------] 0% | 0/1[0K[1Ginstalling... [========================================] 100% | 2/2[0K[1G
+[0J[?25h[?7h[1A[1G
+[32minfo   [39m | [36m   Installed AutoRest extension [90m'@autorest/azure-functions-csharp'[39m (latest->0.2.0-preview-dev.321054549)[39m
+[90mverbose[39m | [33m[4.51 s][39m [36m   Including extension configuration file [90m'file:///root/.autorest/@autorest[3mazure-functions-csharp@0.2.0-preview-dev.321054549/node[23mmodules/@autorest/azure-functions-csharp/readme.md'[39m[39m
+[90mverbose[39m | [33m[4.51 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mazure-functions-csharp@0.2.0-preview-dev.321054549/node[23mmodules/@autorest/azure-functions-csharp/readme.md'[39m[39m
+[34mdebug  [39m | [33m[4.97 s][39m azure:@azure-tools/extension:error Error resolving package @autorest/modelerfour@4.15.414 @autorest/modelerfour: No matching version found for @autorest/modelerfour@4.15.414
+[?25l[?7l[1G[0K[32minfo   [39m | [36m   Installing AutoRest extension [90m'@autorest/modelerfour'[39m (4.15.414 -> 4.15.414)[39m
+[1Ginstalling... [----------------------------------------] 0% | 0/1[0K[1G[1Ginstalling... [----------------------------------------] 0% | 0/1[0K[1G[1Ginstalling... [========================================] 100% | 100/66[0K[1Ginstalling... [========================================] 100% | 2/2[0K[1G
+[0J[?25h[?7h[1A[1G
+[32minfo   [39m | [36m   Installed AutoRest extension [90m'@autorest/modelerfour'[39m (4.15.414->4.15.414)[39m
+[90mverbose[39m | [33m[8.67 s][39m [36m   Including extension configuration file [90m'file:///root/.autorest/@autorest[3mmodelerfour@4.15.414/node[23mmodules/@autorest/modelerfour/readme.md'[39m[39m
+[90mverbose[39m | [33m[8.67 s][39m [36m   Including configuration file [90m'file:///root/.autorest/@autorest[3mmodelerfour@4.15.414/node[23mmodules/@autorest/modelerfour/readme.md'[39m[39m
+[34mdebug  [39m | [33m[10.01 s][39m swagger-document/loader-swagger - START inputs = 0
+[34mdebug  [39m | [33m[10.01 s][39m openapi-document/loader-openapi - START inputs = 0
+[34mdebug  [39m | [33m[10.02 s][39m pipeline-emitter - START inputs = 0
+[34mdebug  [39m | [33m[10.02 s][39m configuration-emitter - START inputs = 0
+[34mdebug  [39m | [33m[10.02 s][39m pipeline-emitter - END [33m[1m[0.08 s][22m[39m[33m[1m[64 MB][22m[39m
+[34mdebug  [39m | [33m[10.02 s][39m configuration-emitter - END [33m[1m[0.08 s][22m[39m[33m[1m[64 MB][22m[39m
+[90mverbose[39m | [33m[10.14 s][39m Reading OpenAPI 3.0 file file:///workspace/cds_energy.json
+[34mdebug  [39m | [33m[10.16 s][39m swagger-document/loader-swagger - END [33m[1m[0.2 s][22m[39m[33m[1m[61 MB][22m[39m
+[34mdebug  [39m | [33m[10.38 s][39m openapi-document/loader-openapi - END [33m[1m[0.45 s][22m[39m[33m[1m[69 MB][22m[39m
+[34mdebug  [39m | [33m[10.38 s][39m swagger-document/individual/transform - SKIPPING
+[34mdebug  [39m | [33m[10.38 s][39m swagger-document/individual/schema-validator-swagger - SKIPPING
+[34mdebug  [39m | [33m[10.38 s][39m swagger-document/identity - SKIPPING
+[34mdebug  [39m | [33m[10.39 s][39m swagger-document/individual/identity - SKIPPING
+[34mdebug  [39m | [33m[10.39 s][39m openapi-document/openapi-document-converter - SKIPPING
+[34mdebug  [39m | [33m[10.39 s][39m openapi-document/individual/transform - START inputs = 1
+[34mdebug  [39m | [33m[10.41 s][39m openapi-document/individual/transform - END [33m[1m[0.02 s][22m[39m[33m[1m[67 MB][22m[39m
+[34mdebug  [39m | [33m[10.41 s][39m openapi-document/individual/schema-validator-openapi - START inputs = 1
+[34mdebug  [39m | [33m[10.69 s][39m openapi-document/individual/schema-validator-openapi - END [33m[1m[0.28 s][22m[39m[33m[1m[75 MB][22m[39m
+[34mdebug  [39m | [33m[10.70 s][39m openapi-document/individual/identity - START inputs = 1
+[34mdebug  [39m | [33m[10.70 s][39m openapi-document/individual/identity - END [33m[1m[0 s][22m[39m[33m[1m[70 MB][22m[39m
+[34mdebug  [39m | [33m[10.70 s][39m openapi-document/transform - START inputs = 1
+[34mdebug  [39m | [33m[10.70 s][39m openapi-document/transform - END [33m[1m[0 s][22m[39m[33m[1m[70 MB][22m[39m
+[34mdebug  [39m | [33m[10.70 s][39m openapi-document/semantic-validator - START inputs = 1
+[34mdebug  [39m | [33m[10.72 s][39m openapi-document/semantic-validator - END [33m[1m[0.01 s][22m[39m[33m[1m[74 MB][22m[39m
+[34mdebug  [39m | [33m[10.72 s][39m openapi-document/allof-cleaner - START inputs = 1
+[34mdebug  [39m | [33m[10.76 s][39m openapi-document/allof-cleaner - END [33m[1m[0.03 s][22m[39m[33m[1m[77 MB][22m[39m
+[34mdebug  [39m | [33m[10.76 s][39m openapi-document/tree-shaker - START inputs = 1
+[34mdebug  [39m | [33m[11.08 s][39m openapi-document/tree-shaker - END [33m[1m[0.31 s][22m[39m[33m[1m[87 MB][22m[39m
+[34mdebug  [39m | [33m[11.08 s][39m openapi-document/multi-api-merger - START inputs = 1
+[34mdebug  [39m | [33m[11.40 s][39m openapi-document/multi-api-merger - END [33m[1m[0.32 s][22m[39m[33m[1m[81 MB][22m[39m
+[34mdebug  [39m | [33m[11.41 s][39m openapi-document/components-cleaner - START inputs = 1
+[34mdebug  [39m | [33m[11.69 s][39m openapi-document/components-cleaner - END [33m[1m[0.28 s][22m[39m[33m[1m[101 MB][22m[39m
+[34mdebug  [39m | [33m[11.69 s][39m openapi-document/component-modifiers - START inputs = 1
+[34mdebug  [39m | [33m[11.73 s][39m openapi-document/component-modifiers - END [33m[1m[0.04 s][22m[39m[33m[1m[110 MB][22m[39m
+[34mdebug  [39m | [33m[11.74 s][39m openapi-document/api-version-parameter-handler - START inputs = 1
+[34mdebug  [39m | [33m[11.74 s][39m openapi-document/api-version-parameter-handler - END [33m[1m[0 s][22m[39m[33m[1m[110 MB][22m[39m
+[34mdebug  [39m | [33m[11.74 s][39m openapi-document/profile-filter - START inputs = 1
+[34mdebug  [39m | [33m[11.74 s][39m openapi-document/profile-filter - END [33m[1m[0 s][22m[39m[33m[1m[110 MB][22m[39m
+[34mdebug  [39m | [33m[11.74 s][39m openapi-document/model-deduplicator - START inputs = 1
+[34mdebug  [39m | [33m[11.74 s][39m openapi-document/emitter - START inputs = 1
+[34mdebug  [39m | [33m[11.74 s][39m openapi-document/model-deduplicator - END [33m[1m[0 s][22m[39m[33m[1m[110 MB][22m[39m
+[34mdebug  [39m | [33m[11.74 s][39m openapi-document/emitter - END [33m[1m[0 s][22m[39m[33m[1m[110 MB][22m[39m
+[34mdebug  [39m | [33m[11.74 s][39m openapi-document/enum-deduplicator - START inputs = 1
+[34mdebug  [39m | [33m[12.32 s][39m openapi-document/enum-deduplicator - END [33m[1m[0.57 s][22m[39m[33m[1m[113 MB][22m[39m
+[34mdebug  [39m | [33m[12.32 s][39m openapi-document/subset-reducer - START inputs = 1
+[34mdebug  [39m | [33m[12.32 s][39m openapi-document/subset-reducer - END [33m[1m[0 s][22m[39m[33m[1m[113 MB][22m[39m
+[34mdebug  [39m | [33m[12.32 s][39m openapi-document/multi-api/reset-identity - START inputs = 1
+[34mdebug  [39m | [33m[12.32 s][39m openapi-document/multi-api/reset-identity - END [33m[1m[0 s][22m[39m[33m[1m[113 MB][22m[39m
+[34mdebug  [39m | [33m[12.32 s][39m openapi-document/multi-api/identity - START inputs = 1
+[34mdebug  [39m | [33m[12.32 s][39m openapi-document/multi-api/identity - END [33m[1m[0 s][22m[39m[33m[1m[113 MB][22m[39m
+[34mdebug  [39m | [33m[12.32 s][39m openapi-document/multi-api/emitter - START inputs = 1
+[34mdebug  [39m | [33m[12.32 s][39m prechecker - START inputs = 1
+[34mdebug  [39m | [33m[12.32 s][39m openapi-document/multi-api/emitter - END [33m[1m[0 s][22m[39m[33m[1m[113 MB][22m[39m
+[33m[1mwarning[22m[39m | [32mPreCheck/SchemaMissingType[39m | The schema [90m'EnergyPlanDetail'[39m with an undefined type and [90m'allOf'[39m/[90m'anyOf'[39m/[90m'oneOf'[39m is a bit ambigious. This has been auto-corrected to [90m'type:object'[39m
+[33m[1mwarning[22m[39m | [32mPreCheck/SchemaMissingType[39m | The schema [90m'EnergyPlanContractFull'[39m with an undefined type and [90m'allOf'[39m/[90m'anyOf'[39m/[90m'oneOf'[39m is a bit ambigious. This has been auto-corrected to [90m'type:object'[39m
+[33m[1mwarning[22m[39m | [32mPreCheck/SchemaMissingType[39m | The schema [90m'EnergyServicePointDetail'[39m with an undefined type and decalared properties is a bit ambigious. This has been auto-corrected to [90m'type:object'[39m
+[33m[1mwarning[22m[39m | [32mPreCheck/SchemaMissingType[39m | The schema [90m'EnergyAccount'[39m with an undefined type and [90m'allOf'[39m/[90m'anyOf'[39m/[90m'oneOf'[39m is a bit ambigious. This has been auto-corrected to [90m'type:object'[39m
+[33m[1mwarning[22m[39m | [32mPreCheck/SchemaMissingType[39m | The schema [90m'EnergyAccountDetail'[39m with an undefined type and [90m'allOf'[39m/[90m'anyOf'[39m/[90m'oneOf'[39m is a bit ambigious. This has been auto-corrected to [90m'type:object'[39m
+[33m[1mwarning[22m[39m | [32mPreCheck/CheckDuplicateSchemas[39m | Checking for duplicate schemas, this could take a (long) while.  Run with --verbose for more detail.
+[34mdebug  [39m | [33m[12.87 s][39m prechecker - END [33m[1m[0.54 s][22m[39m[33m[1m[121 MB][22m[39m
+[34mdebug  [39m | [33m[12.87 s][39m modelerfour - START inputs = 2
+[34mdebug  [39m | [33m[13.99 s][39m modelerfour - END [33m[1m[1.11 s][22m[39m[33m[1m[129 MB][22m[39m
+[34mdebug  [39m | [33m[13.99 s][39m modelerfour/new-transform - START inputs = 2
+[34mdebug  [39m | [33m[13.99 s][39m modelerfour/new-transform - END [33m[1m[0 s][22m[39m[33m[1m[129 MB][22m[39m
+[34mdebug  [39m | [33m[13.99 s][39m modelerfour/flattener - START inputs = 2
+[34mdebug  [39m | [33m[14.53 s][39m modelerfour/flattener - END [33m[1m[0.53 s][22m[39m[33m[1m[136 MB][22m[39m
+[34mdebug  [39m | [33m[14.53 s][39m modelerfour/flattener/new-transform - START inputs = 2
+[34mdebug  [39m | [33m[14.53 s][39m modelerfour/flattener/new-transform - END [33m[1m[0 s][22m[39m[33m[1m[136 MB][22m[39m
+[34mdebug  [39m | [33m[14.53 s][39m modelerfour/grouper - START inputs = 2
+[34mdebug  [39m | [33m[15.07 s][39m modelerfour/grouper - END [33m[1m[0.53 s][22m[39m[33m[1m[143 MB][22m[39m
+[34mdebug  [39m | [33m[15.07 s][39m modelerfour/grouper/new-transform - START inputs = 2
+[34mdebug  [39m | [33m[15.07 s][39m modelerfour/grouper/new-transform - END [33m[1m[0 s][22m[39m[33m[1m[143 MB][22m[39m
+[34mdebug  [39m | [33m[15.07 s][39m modelerfour/pre-namer - START inputs = 2
+[34mdebug  [39m | [33m[15.71 s][39m modelerfour/pre-namer - END [33m[1m[0.63 s][22m[39m[33m[1m[150 MB][22m[39m
+[34mdebug  [39m | [33m[15.71 s][39m modelerfour/pre-namer/new-transform - START inputs = 2
+[34mdebug  [39m | [33m[15.71 s][39m modelerfour/pre-namer/new-transform - END [33m[1m[0 s][22m[39m[33m[1m[150 MB][22m[39m
+[34mdebug  [39m | [33m[15.71 s][39m modelerfour/checker - START inputs = 4
+[34mdebug  [39m | [33m[16.25 s][39m modelerfour/checker - END [33m[1m[0.54 s][22m[39m[33m[1m[157 MB][22m[39m
+[34mdebug  [39m | [33m[16.25 s][39m modelerfour/identity - START inputs = 2
+[34mdebug  [39m | [33m[16.25 s][39m modelerfour/identity - END [33m[1m[0 s][22m[39m[33m[1m[157 MB][22m[39m
+[34mdebug  [39m | [33m[16.26 s][39m azure-functions-csharp - START inputs = 2
+[34mdebug  [39m | [33m[16.26 s][39m modelerfour/emitter - START inputs = 2
+[34mdebug  [39m | [33m[16.26 s][39m modelerfour/notags/emitter - START inputs = 2
+[34mdebug  [39m | [33m[16.26 s][39m modelerfour/emitter - END [33m[1m[0 s][22m[39m[33m[1m[157 MB][22m[39m
+[34mdebug  [39m | [33m[16.26 s][39m modelerfour/notags/emitter - END [33m[1m[0 s][22m[39m[33m[1m[157 MB][22m[39m
+[34mdebug  [39m | [33m[25.43 s][39m azure-functions-csharp - END [33m[1m[9.17 s][22m[39m[33m[1m[162 MB][22m[39m
+[34mdebug  [39m | [33m[25.43 s][39m azure-functions-csharp/emitter - START inputs = 195
+[34mdebug  [39m | [33m[25.44 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/.gitignore
+[34mdebug  [39m | [33m[25.44 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/.vscode/extensions.json
+[34mdebug  [39m | [33m[25.44 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/host.json
+[34mdebug  [39m | [33m[25.44 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/local.settings.json
+[34mdebug  [39m | [33m[25.45 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/.autorest_generated.json
+[34mdebug  [39m | [33m[25.45 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/Enum0.cs
+[34mdebug  [39m | [33m[25.45 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/Enum1.cs
+[34mdebug  [39m | [33m[25.45 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/Enum2.cs
+[34mdebug  [39m | [33m[25.45 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanType.cs
+[34mdebug  [39m | [33m[25.45 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanFuelType.cs
+[34mdebug  [39m | [33m[25.46 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanCustomerType.cs
+[34mdebug  [39m | [33m[25.46 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanContractPricingModel.cs
+[34mdebug  [39m | [33m[25.46 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanContractTimeZone.cs
+[34mdebug  [39m | [33m[25.46 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanContractPaymentOptionItem.cs
+[34mdebug  [39m | [33m[25.46 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanIncentivesItemCategory.cs
+[34mdebug  [39m | [33m[25.46 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanDiscountsItemType.cs
+[34mdebug  [39m | [33m[25.46 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanDiscountsItemCategory.cs
+[34mdebug  [39m | [33m[25.47 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanDiscountsItemMethodUType.cs
+[34mdebug  [39m | [33m[25.47 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanGreenPowerChargesItemScheme.cs
+[34mdebug  [39m | [33m[25.47 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanGreenPowerChargesItemType.cs
+[34mdebug  [39m | [33m[25.47 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanEligibilityItemType.cs
+[34mdebug  [39m | [33m[25.47 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanFeesItemType.cs
+[34mdebug  [39m | [33m[25.47 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanFeesItemTerm.cs
+[34mdebug  [39m | [33m[25.48 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanSolarFeedInTariffItemScheme.cs
+[34mdebug  [39m | [33m[25.48 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanSolarFeedInTariffItemPayerType.cs
+[34mdebug  [39m | [33m[25.48 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanSolarFeedInTariffItemTariffUType.cs
+[34mdebug  [39m | [33m[25.48 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/Enum21.cs
+[34mdebug  [39m | [33m[25.48 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodItemType.cs
+[34mdebug  [39m | [33m[25.49 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodItemRateBlockUType.cs
+[34mdebug  [39m | [33m[25.49 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodSingleRatesMeasureUnit.cs
+[34mdebug  [39m | [33m[25.49 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodItemTimeOfUseRatesItemMeasureUnit.cs
+[34mdebug  [39m | [33m[25.49 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodPropertiesItemsTimeOfUsePropertiesItemsItem.cs
+[34mdebug  [39m | [33m[25.49 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodItemTimeOfUseRatesItemType.cs
+[34mdebug  [39m | [33m[25.49 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodItemDemandChargesItemMeasureUnit.cs
+[34mdebug  [39m | [33m[25.50 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodItemDemandChargesItemMeasurementPeriod.cs
+[34mdebug  [39m | [33m[25.50 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodItemDemandChargesItemChargePeriod.cs
+[34mdebug  [39m | [33m[25.50 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanContractFullAllOfTermType.cs
+[34mdebug  [39m | [33m[25.50 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointClassification.cs
+[34mdebug  [39m | [33m[25.50 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointStatus.cs
+[34mdebug  [39m | [33m[25.50 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointJurisdictionCode.cs
+[34mdebug  [39m | [33m[25.51 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointConsumerProfileClassification.cs
+[34mdebug  [39m | [33m[25.51 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointConsumerProfileThreshold.cs
+[34mdebug  [39m | [33m[25.51 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailServicePointClassification.cs
+[34mdebug  [39m | [33m[25.51 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailServicePointStatus.cs
+[34mdebug  [39m | [33m[25.51 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailJurisdictionCode.cs
+[34mdebug  [39m | [33m[25.52 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailRelatedParticipantsRole.cs
+[34mdebug  [39m | [33m[25.52 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailLocationAddressUType.cs
+[34mdebug  [39m | [33m[25.52 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailMetersSpecificationsStatus.cs
+[34mdebug  [39m | [33m[25.52 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailMetersSpecificationsInstallationType.cs
+[34mdebug  [39m | [33m[25.52 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailMetersRegistersRegisterConsumptionType.cs
+[34mdebug  [39m | [33m[25.52 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailMetersRegistersTimeOfDay.cs
+[34mdebug  [39m | [33m[25.52 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailMetersRegistersConsumptionType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyUsageReadUType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyUsageReadBasicReadQuality.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyUsageReadIntervalReadsQuality.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyDerRecordAcConnectionsEquipmentType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyDerRecordAcConnectionsStatus.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyDerRecordDerDevicesStatus.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyDerRecordDerDevicesType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountDetailAllOfPlanDetailFuelType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPaymentScheduleUType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPaymentScheduleCardDebitCardScheme.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPaymentScheduleCardDebitCalculationType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPaymentScheduleDirectDebitCalculationType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyInvoiceGasUsageChargesOtherChargesType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyInvoicePaymentStatus.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingTransactionUType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingUsageTransactionTimeOfUseType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingUsageTransactionMeasureUnit.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingUsageTransactionCalculationFactorsType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingDemandTransactionTimeOfUseType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingOtherTransactionType.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingPaymentTransactionMethod.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanListResponse.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanListResponseData.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlan.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanAdditionalInformation.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanGeography.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/LinksPaginated.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/MetaPaginated.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/ErrorListResponse.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/ErrorListResponseErrors.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/ErrorListResponseMeta.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanResponse.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanDetail.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanDetailAllOf.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanDetailAllOfMeteringCharges.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanContractFull.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanContract.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanContractIntrinsicGreenPower.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanControlledLoad.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanControlledLoadRates.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanIncentivesItem.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanDiscountsItem.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanDiscountsItemPercentOfBill.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanDiscountsItemPercentOfUse.cs
+[34mdebug  [39m | [33m[25.53 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanDiscountsItemFixedAmount.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanDiscountsItemPercentOverThreshold.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanGreenPowerChargesItem.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanGreenPowerChargesPropertiesItemsItem.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanEligibilityItem.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanFeesItem.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanSolarFeedInTariffItem.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanSolarFeedInTariffItemSingleTariff.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanSolarFeedInTariffItemTimeVaryingTariffs.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanSolarFeedInTariffPropertiesItemsItem.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanSolarFeedInTariffItemTimeVaryingTariffsTimeVariationsItemDays.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodItem.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodItemSingleRate.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodSingleRates.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodPropertiesItemsItem.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodPropertiesItemsRatesItem.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodPropertiesItemsTimeOfUseItem.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/Components1LnbzrwSchemasEnergyplantariffperiodItemsPropertiesDemandchargesItems.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanTariffPeriodItemDemandChargesItemDays.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPlanContractFullAllOf.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/Links.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointListResponse.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointListResponseData.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePoint.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointConsumerProfile.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailResponse.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetail.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailDistributionLossFactor.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailRelatedParticipants.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailLocation.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailLocationSimple.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailLocationPaf.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailMeters.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailMetersSpecifications.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyServicePointDetailMetersRegisters.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyUsageListResponse.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyUsageListResponseData.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyUsageRead.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyUsageReadBasicRead.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyUsageReadIntervalRead.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyUsageReadIntervalReads.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/Components1S7CyfyRequestbodiesServicepointidlistContentApplicationJsonSchema.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/ServicePointIdListApplicationJsonProperties.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyDerDetailResponse.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyDerRecord.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyDerRecordProtectionMode.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyDerRecordAcConnections.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyDerRecordDerDevices.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyDerListResponse.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyDerListResponseData.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountListResponse.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountListResponseData.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccount.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountBase.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountAllOf.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountAllOfPlans.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountAllOfPlanOverview.cs
+[34mdebug  [39m | [33m[25.54 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountDetailResponse.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountDetail.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountDetailAllOf.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountDetailAllOfPlans.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountDetailAllOfPlanDetail.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyAccountDetailAllOfAuthorisedContacts.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPaymentScheduleResponse.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPaymentSchedule.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPaymentScheduleCardDebit.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPaymentScheduleDirectDebit.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyPaymentScheduleManualPayment.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyConcessionsResponse.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyConcessionsResponseData.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyConcession.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBalanceResponse.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBalanceResponseData.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBalanceListResponse.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBalanceListResponseData.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBalanceListResponseDataBalances.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/Components51C1UbRequestbodiesAccountidlistContentApplicationJsonSchema.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/AccountIdListApplicationJsonProperties.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyInvoiceListResponse.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyInvoiceListResponseData.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyInvoice.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyInvoicePeriod.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyInvoicePayOnTimeDiscount.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyInvoiceGasUsageCharges.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyInvoiceGasUsageChargesOtherCharges.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyInvoiceElectricityUsageCharges.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyInvoiceAccountCharges.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingListResponse.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingListResponseData.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingTransaction.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingUsageTransaction.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingUsageTransactionCalculationFactors.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingUsageTransactionAdjustments.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingDemandTransaction.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingOnceOffTransaction.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingOtherTransaction.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Models/EnergyBillingPaymentTransaction.cs
+[34mdebug  [39m | [33m[25.55 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/EnergyApi.cs
+[34mdebug  [39m | [33m[26.15 s][39m Emitting [90m'source-file-csharp'[39m at file:///workspace/autorest/energy/Agl.Cdr.Energy.csproj
+[34mdebug  [39m | [33m[26.15 s][39m azure-functions-csharp/emitter - END [33m[1m[0.72 s][22m[39m[33m[1m[161 MB][22m[39m
+[34mdebug  [39m | [33m[26.15 s][39m Clearing Folders.
+[34mdebug  [39m | [33m[26.15 s][39m Writing Outputs.
+[32minfo   [39m | Generation Complete
+[34mdebug  [39m | [33m[26.19 s][39m Shutting Down.
+[34mdebug  [39m | [33m[26.19 s][39m Exiting.
